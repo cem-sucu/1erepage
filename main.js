@@ -61,7 +61,7 @@ function play() {
 
     // on est sorti de la boucle, c'est que le nombre saisi est bien le nombre cherché
     // on affiche un message de victoire
-    alert('Esek tu me surprend, fais un screenshot STP pour que je puisse voir combien d\'essaie tu as fais  ' + gameState.searchedNumber + ' - Nombre d\'essais : ' + gameState.attempts);
+    alert('Esek tu me surprend, fais un screenshot STP pour que je puisse voir combien d\'essaie tu as fais mdr  ' + gameState.searchedNumber + ' - Nombre d\'essais : ' + gameState.attempts);
 
 }
 
