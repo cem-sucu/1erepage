@@ -1,0 +1,104 @@
+body {
+    background-color: #CCCCCC;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* 80% de la taille du conteneur ( ici body donc 80% de la taille de la fenêtre )*/
+    max-width: 800px; /* Largeur maximum, si elle doit être supérieur à 800px alors on la bloquera à 800px */
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: darkblue;
+}
+
+header {
+    padding: 20px 20px 0px;   
+}
+
+nav {
+    background-color: rosybrown;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a { /* Toutes les balises <a> présentent dans la balise <nav> */
+    margin: 0 10px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #044052;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 3px solid #CCCCCC;
+    padding-bottom: 5px;
+    margin-bottom: 1em;
+}
+
+h3{
+    color: darkblue ;
+}
+
+h4{
+    color: darkblue;
+    background-color: steelblue;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.main-image {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px; /* Permet d'arrondir les bords */
+}
+
+.article {
+    margin-bottom: 1em;
+}
+
+.article h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.2em;
+	letter-spacing: 0.09em;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: rosybrown;
+    padding: 1em;
+}
+footer p {
+    text-align: center;
+}
