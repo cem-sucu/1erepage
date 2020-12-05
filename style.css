@@ -7,9 +7,9 @@ body {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 80%; /* 80% de la taille du conteneur ( ici body donc 80% de la taille de la fenêtre )*/
+    margin-top: 1px;
+    margin-bottom:1px;
+    width: 95%; /* 80% de la taille du conteneur ( ici body donc 80% de la taille de la fenêtre )*/
     max-width: 800px; /* Largeur maximum, si elle doit être supérieur à 800px alors on la bloquera à 800px */
 }
 
