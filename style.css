@@ -9,8 +9,6 @@ body {
     margin-right: auto;
     margin-top: 1px;
     margin-bottom:1px;
-    width: 95%; /* 80% de la taille du conteneur ( ici body donc 80% de la taille de la fenêtre )*/
-    max-width: 800px; /* Largeur maximum, si elle doit être supérieur à 800px alors on la bloquera à 800px */
 }
 
 h1 {
@@ -25,7 +23,7 @@ header {
 
 nav {
     background-color: rosybrown;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
